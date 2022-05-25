@@ -10,11 +10,48 @@
 </head>
 <body>
     
-     
 
+    <div class="section-header"><div class="content size">
 
+        <div class="logo"><a href="/" target="_self" title="Hs"><img src="content/logo-firmy.png" alt="logo"></a><div class="cf"></div></div>
+        
+        <div class="menu-buttons"><a id="button-show" title="Menu" class="button-show"></a><a id="button-hide" title="Menu" class="button-hide" style="display: none;"></a></div>
+        
+        
+        <div class="nav"><nav><div id="menu" class="jqueryslidemenu"><ul>
+            <!--li><a href="/" target="_self" title="Przejdź do strony głównej" class="menu-button active">Home</a></li-->
+            <li><a href="#" target="_self" title="O nas" class="menu-button">O mnie</a></li>
+            <li><a href="#" target="_self" title="Home staging" class="menu-button">Home staging</a></li>
+            <li><a href="#" target="_self" title="Wnętrza" class="menu-button">Oferta</a></li>
+            <li><a href="#" target="_self" title="Kontakt" class="menu-button">Kontakt</a></li>
+        </ul><div class="cf"></div></div></nav></div>
+        
+        <div class="cf"></div></div></div>
+        <div class="section-navmob"><div id="list-navmob" class="list-navmob" style="display: none;"><div class="content size"><dl id="navmob">
+            <!--dt><a href="/" target="_self" title="Przejdź do strony głównej" class="navmob-button first active">Home</a></dt-->
+            <dt><a href="o-nas/" target="_self" title="O nas" class="navmob-button">O nas</a></dt><dd style="display: none;"><dl></dl></dd>
+            <dt><a href="home-staging/" target="_self" title="Home staging" class="navmob-button">Home staging</a></dt><dd style="display: none;"><dl></dl></dd>
+            <dt><a href="wnetrza/" target="_self" title="Wnętrza" class="navmob-button">Wnętrza</a></dt><dd style="display: none;"><dl></dl></dd>
+            <dt><a href="blog/" target="_self" title="Blog" class="navmob-button">Blog</a></dt><dd style="display: none;"><dl></dl></dd>
+            <dt><a href="kontakt/" target="_self" title="Kontakt" class="navmob-button">Kontakt</a></dt><dd style="display: none;"><dl></dl></dd>
+        </dl></div></div>			
+        <script>
+        // <![CDATA[
+        new Menu('navmob');
+        // ]]>
+        </script>
+        <script>$('#list-navmob').hide(); $('#button-hide').hide(); $("#button-show").on("click", function() { $("#list-navmob").show(); $("#button-show").hide(); $("#button-hide").show(); }); $("#button-hide").on("click", function() { $("#list-navmob").hide(); $("#button-show").show(); $("#button-hide").hide(); }); </script>
+        <div class="cf"></div></div>
+    
 
-    <main></main>
-    <footer></footer>
+        
+        <img class="respon" src="content/index/photo1.jpg" alt="wystrój">
+        
+<div class="container">
+    <h1>Tytuł 1</h1>
+    <h4>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur aut quos minus hic eaque repellat odio praesentium voluptatem ipsam? Corporis nobis officiis sapiente tempora praesentium ullam ratione veniam, amet accusamus!</h4>
+</div>
+
 </body>
+<script src="script.js"></script>
 </html>

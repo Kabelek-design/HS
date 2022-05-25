@@ -1,13 +1,154 @@
-html {
-    font-size: 100%;
-    box-sizing: border-box;
-  }
-  
-  body {
-    margin: 0px;
-    padding: 0px;
-    min-height: 100vh;
-    background-color: #ffffff;
-    font-family: "Open Sans", Arial, Helvetica, sans-serif;
-  }
-  
+.font10 { font-size: 10px;} .font11 { font-size: 11px;} .font12 { font-size: 12px;} .font13 { font-size: 13px;} .font14 { font-size: 14px;} .font15 { font-size: 15px;} .font16 { font-size: 16px;} .font17 { font-size: 17px;} .font18 { font-size: 18px;} .font19 { font-size: 19px;} .font20 { font-size: 20px;} .font21 { font-size: 21px;} .font22 { font-size: 22px;} .font23 { font-size: 23px;} .font24 { font-size: 24px;} .font25 { font-size: 25px;} .font26 { font-size: 26px;} .font27 { font-size: 27px;} .font28 { font-size: 28px;} .font29 { font-size: 29px;} .font30 { font-size: 30px;} .font31 { font-size: 31px;} .font32 { font-size: 32px;} .font33 { font-size: 33px;} .font34 { font-size: 34px;} .font35 { font-size: 35px;} .font36 { font-size: 36px;} .font37 { font-size: 37px;} .font38 { font-size: 38px;} .font39 { font-size: 39px;} .font40 { font-size: 40px;} .font42 { font-size: 42px;} .font44 { font-size: 44px;} .font46 { font-size: 46px;} .font48 { font-size: 48px;} .font50 { font-size: 50px;} .font55 { font-size: 55px;} .font60 { font-size: 60px;} .font65 { font-size: 65px;} .font70 { font-size: 70px;} strong { font-weight: bold; } em { font-style: italic; } img { border: 0px; } p { display: block; padding: 0; margin: 0; } .cf { clear:both; } body { margin: 0; padding: 0; } div, article, aside, details, dialog, figcaption, figure, footer, header, main, nav, section { display: block; margin: 0; padding: 0; }
+
+.size { max-width: 1500px; }
+
+/*font*/
+body { line-height: 1.9em; font-size: 13px; text-align: left; }
+input, textarea { font-size: 14px; text-align: left; }
+h1, h2, h3, .h1, .h { text-transform: none; text-align: left; }
+.h-small { text-transform: uppercase; }
+
+/*color*/
+html { background: #ffffff; }
+body { color: #231f20; }
+h1, h2, h3, .h1, .h, .h-small { color: #231f20; }
+input, textarea { color: #231f20; box-sizing: border-box; border-width: 1px; border-style: solid; border-color: #ffffff; background: #ffffff; }
+a { color: #231f20; } a:hover { color: #888887; }
+
+/*layout*/
+h1, h2, h3, .h1, .h, .h-small { display: block; margin: 0; padding: 0; }
+
+h1, .h1 { line-height: 40px; margin: 0 0 15px 0; font-size: 20px; letter-spacing: 0.05em; }
+h2 { line-height: 40px; margin: 0 0 15px 0; font-size: 19px; letter-spacing: 0.05em; }
+
+h1.h1-title { line-height: 28px; margin: 0 0 15px 0; font-size: 19px; letter-spacing: 0.05em; text-transform: uppercase; }
+
+h1.h1-product-name { line-height: 30px; margin: 0 0 15px 0; font-size: 19px; letter-spacing: 0.05em; text-align: center; text-transform: uppercase; }
+
+h3 { line-height: 20px; margin: 0 0 10px 0; font-size: 18px; }
+
+
+.h-small { line-height: 20px; margin: 0 0 0px 0; font-size: 15px; letter-spacing: 2px; }
+
+a.h-button { line-height: 40px; font-size: 19px; letter-spacing: 0.05em; text-transform: uppercase; }
+
+
+
+a, a:hover { text-decoration: underline; outline: none; cursor: pointer; }
+
+
+
+
+/*section-nav*/
+/*font*/
+.section-header a.menu-button { line-height: 40px; font-size: 15px; letter-spacing: 1px; text-transform: uppercase; }
+.section-header a.submenu-button { line-height: 20px; font-size: 14px; text-transform: none; }
+.section-header a.language-button { line-height: 40px; font-size: 15px; letter-spacing: 1px; text-transform: uppercase; }
+
+/*color*/
+.section-header { background: #ffffff; /*-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2); -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2); box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);*/ } 
+.section-header .content { color: #231f20; }
+ 
+.section-header a.menu-button { color: #231f20; } 
+.section-header a.menu-button:hover, .section-header a.menu-button.active { color: #888887; } 
+
+.section-header a.language-button { color: #231f20; }
+.section-header a.language-button:hover, .section-header a.language-button.active { color: #888887; }
+
+.section-header ul li ul.menu-list { border-width: 0 1px 1px 1px; border-style: solid; border-color: #eaeaea; background-color: #ffffff; }
+.section-header ul li ul li ul.menu-list { border-width: 1px 1px 1px 1px; border-style: solid; border-color: #eaeaea; background-color: #ffffff; }
+.section-header a.submenu-button { color: #231f20; }
+.section-header a.submenu-button:hover, .section-header a.submenu-button.active { color: #888887; }
+
+
+.section-header a.button-show { background-color: transparent; background-image: url('graphics/button-show-hide.png'); } 
+.section-header a.button-show:hover { background-color: transparent; }
+.section-header a.button-hide { background-color: transparent; background-image: url('graphics/button-show-hide.png'); } 
+.section-header a.button-hide:hover { background-color: transparent; }
+
+/*layout*/
+.section-header { position: fixed; top: 0; left: 0; right: 0; z-index: 5000; } 
+.section-header .content { width: 95%; height: 120px; margin: 0 auto; padding: 15px 0; box-sizing: border-box; } 
+@media only screen and (min-width:1000px) { } 
+@media only screen and (max-width:999px) { .section-header .content { height: 60px; padding: 5px 0; } } 
+
+.section-header .logo { float: left; }
+.section-header .logo img { display: block; height: 70px; margin: 10px 0; }
+@media only screen and (min-width:1000px) { } 
+@media only screen and (max-width:999px) { .section-header .logo img { height: 40px; margin: 5px 0; } } 
+
+.section-header .nav { float: right; margin: 25px 0; }
+.section-header ul { display: block; margin: 0; padding: 0; list-style: none; text-align: center; } 
+.section-header ul li { display: inline-block; margin: 0; margin: 0 0 0 20px; position: relative; list-style: none; }
+.section-header ul li:first-child { margin: 0; } 
+.section-header ul li a.menu-button { display: block; padding: 0; white-space: nowrap; text-decoration: none; border-width: 0; border-style: solid; } 
+.section-header ul li a.menu-button:hover { text-decoration: none; } 
+.section-header ul li ul { visibility: hidden; height: auto; margin: 0; padding: 10px 0; position: absolute; left: 0; text-align: left; } 
+.section-header ul li ul li, .section-header ul li ul li:first-child { display: list-item; float: none; margin: 0; padding: 5px 0; border-right: none; } 
+.section-header ul li ul li a.submenu-button { float: none; margin: 0; padding: 0 20px; white-space: nowrap; text-decoration: none; border: none; } 
+.section-header ul li ul li a.submenu-button:hover { text-decoration: none; border: none; } 
+.section-header ul li ul li ul { visibility: hidden; height: auto; margin: 0 0 0 2px; padding: 10px 0; position: absolute; left: 0; text-align: left; } 
+.section-header ul li ul li ul li, .section-header ul li ul li ul li:first-child { display: list-item; float: none; margin: 0; padding: 5px 0; border-right: none; } 
+.section-header ul li ul li ul li a.submenu-button { float: none; margin: 0; padding: 0 20px; white-space: nowrap; text-decoration: none; border: none; } 
+.section-header ul li ul li ul li a.submenu-button:hover { text-decoration: none; border: none; } 
+.section-header .downarrowclass { position: absolute; bottom: 5px; left: 0px; } .section-header .rightarrowclass { position: absolute; top: 20px; right: 5px; }
+@media only screen and (min-width:1000px) { } 
+@media only screen and (max-width:999px) { .section-header .nav { display: none; } } 
+
+.section-header .languages { float: right; margin: 25px 0 0 20px; }
+.section-header a.language-button { display: block; float: left; margin: 0 0 0 10px; padding: 0; text-decoration: none; }
+.section-header a.language-button:hover { text-decoration: none; }
+@media only screen and (min-width:1000px) { } 
+@media only screen and (max-width:999px) { .section-header .languages { margin: 5px 0 0 20px; } } 
+
+.section-header .menu-buttons { float: right; margin: 5px 0 0 30px; }
+.section-header a.button-show { display: block; width: 40px; height: 40px; text-decoration: none; box-sizing: border-box; background-repeat: no-repeat; background-position: top left; } 
+.section-header a.button-hide { display: block; width: 40px; height: 40px; text-decoration: none; box-sizing: border-box; background-repeat: no-repeat; background-position: bottom left; } 
+@media only screen and (min-width:1000px) { .section-header .menu-buttons { display: none; } } 
+@media only screen and (max-width:999px) { } 
+
+
+
+
+
+/*section-navmob*/
+/*font*/
+.section-navmob a.navmob-button { line-height: 50px; font-size: 16px; letter-spacing: 1px; text-transform: uppercase; }
+.section-navmob dd dt a.navmob-button { line-height: 40px; font-size: 14px; text-transform: none; }
+
+/*color*/
+
+.section-navmob .list-navmob { background: #ffffff; -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2); -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2); box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2); }
+.section-navmob .content { color: #1d2122; } 
+.section-navmob a.navmob-button { color: #1d2122; border-top: 1px solid #eaeaea; } 
+.section-navmob a.navmob-button:hover, .section-navmob a.navmob-button.active { color: #888887; }
+.section-navmob a.navmob-button.first { border-top: none; } 
+.section-navmob dd dt a.navmob-button { background-image: url('graphics/navmob-button.png'); }
+
+/*layout*/
+
+@media only screen and (min-width:1000px) { .section-navmob { display: none; } } 
+@media only screen and (max-width:999px) { } 
+.section-navmob .list-navmob { position: fixed; top: 60px; left: 0; right: 0; overflow: auto; z-index: 4000; } 
+.section-navmob .content { width: 95%; margin: 10px auto; }
+.section-navmob a.navmob-button { display: block; text-decoration: none; } 
+.section-navmob a.navmob-button.active, .section-navmob a.navmob-button:hover { text-decoration: none; }
+.section-navmob dd dt a { display: block; margin: 0 0 0 10px; padding: 0 0 0 20px; text-decoration: none; background-position: top left; background-repeat: no-repeat; } 
+.section-navmob dd dt a.active, .section-navmob dd dt a:hover { text-decoration: none; background-position: bottom left; } 
+.section-navmob dd dd a { display: block; margin: 0 0 0 20px; padding: 0 0 0 20px; text-decoration: none; } 
+.section-navmob dd dd a.active, .section-navmob dd dd a:hover { text-decoration: none; } 
+dl { margin-top: 0; margin-bottom: 0; margin-left: 0; border-bottom: 0; } dt { margin: 0; } dd { margin-bottom: 0; margin-left: 0; } 
+
+
+
+
+
+/*margin dla fixed*/
+.margin { height: 120px; }
+@media only screen and (max-width:999px) { .margin { height: 60px; } }
+
+
+.respon{
+    width: 100%;
+    
+}
