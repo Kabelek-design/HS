@@ -1,0 +1,12 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  min-height: 100vh;
+  background-color: #ffffff;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}/*# sourceMappingURL=style.css.map */
