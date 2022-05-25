@@ -185,7 +185,18 @@ body {
   padding: 0;
 }
 
-div, article, aside, details, dialog, figcaption, figure, footer, header, main, nav, section {
+div,
+article,
+aside,
+details,
+dialog,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section {
   display: block;
   margin: 0;
   padding: 0;
@@ -202,12 +213,17 @@ body {
   text-align: left;
 }
 
-input, textarea {
+input,
+textarea {
   font-size: 14px;
   text-align: left;
 }
 
-h1, h2, h3, .h1, .h {
+h1,
+h2,
+h3,
+.h1,
+.h {
   text-transform: none;
   text-align: left;
 }
@@ -225,11 +241,17 @@ body {
   color: #231f20;
 }
 
-h1, h2, h3, .h1, .h, .h-small {
+h1,
+h2,
+h3,
+.h1,
+.h,
+.h-small {
   color: #231f20;
 }
 
-input, textarea {
+input,
+textarea {
   color: #231f20;
   box-sizing: border-box;
   border-width: 1px;
@@ -247,13 +269,19 @@ a:hover {
 }
 
 /*layout*/
-h1, h2, h3, .h1, .h, .h-small {
+h1,
+h2,
+h3,
+.h1,
+.h,
+.h-small {
   display: block;
   margin: 0;
   padding: 0;
 }
 
-h1, .h1 {
+h1,
+.h1 {
   line-height: 40px;
   margin: 0 0 15px 0;
   font-size: 20px;
@@ -304,7 +332,8 @@ a.h-button {
   text-transform: uppercase;
 }
 
-a, a:hover {
+a,
+a:hover {
   text-decoration: underline;
   outline: none;
   cursor: pointer;
@@ -325,13 +354,6 @@ a, a:hover {
   text-transform: none;
 }
 
-.section-header a.language-button {
-  line-height: 40px;
-  font-size: 15px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-}
-
 /*color*/
 .section-header {
   background: #ffffff;
@@ -346,15 +368,8 @@ a, a:hover {
   color: #231f20;
 }
 
-.section-header a.menu-button:hover, .section-header a.menu-button.active {
-  color: #888887;
-}
-
-.section-header a.language-button {
-  color: #231f20;
-}
-
-.section-header a.language-button:hover, .section-header a.language-button.active {
+.section-header a.menu-button:hover,
+.section-header a.menu-button.active {
   color: #888887;
 }
 
@@ -376,7 +391,8 @@ a, a:hover {
   color: #231f20;
 }
 
-.section-header a.submenu-button:hover, .section-header a.submenu-button.active {
+.section-header a.submenu-button:hover,
+.section-header a.submenu-button.active {
   color: #888887;
 }
 
@@ -485,7 +501,8 @@ a, a:hover {
   text-align: left;
 }
 
-.section-header ul li ul li, .section-header ul li ul li:first-child {
+.section-header ul li ul li,
+.section-header ul li ul li:first-child {
   display: list-item;
   float: none;
   margin: 0;
@@ -517,7 +534,8 @@ a, a:hover {
   text-align: left;
 }
 
-.section-header ul li ul li ul li, .section-header ul li ul li ul li:first-child {
+.section-header ul li ul li ul li,
+.section-header ul li ul li ul li:first-child {
   display: list-item;
   float: none;
   margin: 0;
@@ -638,7 +656,8 @@ a, a:hover {
   border-top: 1px solid #eaeaea;
 }
 
-.section-navmob a.navmob-button:hover, .section-navmob a.navmob-button.active {
+.section-navmob a.navmob-button:hover,
+.section-navmob a.navmob-button.active {
   color: #888887;
 }
 
@@ -675,7 +694,8 @@ a, a:hover {
   text-decoration: none;
 }
 
-.section-navmob a.navmob-button.active, .section-navmob a.navmob-button:hover {
+.section-navmob a.navmob-button.active,
+.section-navmob a.navmob-button:hover {
   text-decoration: none;
 }
 
@@ -688,7 +708,8 @@ a, a:hover {
   background-repeat: no-repeat;
 }
 
-.section-navmob dd dt a.active, .section-navmob dd dt a:hover {
+.section-navmob dd dt a.active,
+.section-navmob dd dt a:hover {
   text-decoration: none;
   background-position: bottom left;
 }
@@ -700,7 +721,8 @@ a, a:hover {
   text-decoration: none;
 }
 
-.section-navmob dd dd a.active, .section-navmob dd dd a:hover {
+.section-navmob dd dd a.active,
+.section-navmob dd dd a:hover {
   text-decoration: none;
 }
 
