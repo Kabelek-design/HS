@@ -183,6 +183,7 @@ p {
 body {
   margin: 0;
   padding: 0;
+  line-height: 1.9em;
 }
 
 div,
@@ -235,6 +236,7 @@ h3,
 /*color*/
 html {
   background: #ffffff;
+  font-family: "Poppins", Arial, sans-serif;
 }
 
 body {
@@ -346,6 +348,7 @@ a:hover {
   font-size: 15px;
   letter-spacing: 1px;
   text-transform: uppercase;
+  font-weight: 500;
 }
 
 .section-header a.submenu-button {
@@ -754,4 +757,24 @@ dd {
 }
 .respon {
   width: 100%;
+}
+
+/*layout*/
+.section-home {
+  width: 95%;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section-home-top {
+  padding: 30px 0 30px 0;
+}
+
+.section-home-top img {
+  max-width: 100%;
+}
+
+.section-home-top .editor {
+  margin: 0;
 }/*# sourceMappingURL=style.css.map */
