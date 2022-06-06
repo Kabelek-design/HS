@@ -777,4 +777,359 @@ dd {
 
 .section-home-top .editor {
   margin: 0;
+}
+
+/*footer-contact*/
+/*font*/
+/*color*/
+.footer-contact {
+  background: #ffffff;
+}
+
+.footer-contact .content {
+  color: #231f20;
+  /*border-top: 1px solid #eaeaea;*/
+}
+
+.footer-contact .h-small {
+  color: #888887;
+}
+
+.footer-contact a.h-button {
+  color: #231f20;
+}
+
+.footer-contact a.h-button:hover {
+  color: #888887;
+}
+
+/*layout*/
+.footer-contact .content {
+  width: 95%;
+  margin: 0 auto;
+  padding: 20px 0 20px 0;
+  position: relative;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.footer-contact h3 {
+  text-align: center;
+}
+
+@media only screen and (min-width: 550px) {
+  .footer-contact .col-A {
+    float: left;
+    width: 33.33%;
+  }
+
+  .footer-contact .col-B {
+    float: left;
+    width: 33.33%;
+  }
+
+  .footer-contact .col-C {
+    float: left;
+    width: 33.33%;
+  }
+}
+@media only screen and (max-width: 549px) {
+  .footer-contact .col-A {
+    margin: 0 0 20px 0;
+  }
+
+  .footer-contact .col-B {
+    margin: 0 0 20px 0;
+  }
+}
+/*map*/
+/*font*/
+/*color*/
+.map {
+  background: #ffffff;
+}
+
+/*layout*/
+.map .content {
+  width: 95%;
+  height: 400px;
+  margin: 0 auto 10px;
+}
+
+/*section-footer-top */
+/*font*/
+.section-footer-top a.menu-footer-button {
+  line-height: 30px;
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/*color*/
+.section-footer-top {
+  background: #ffffff;
+  border-top: 1px solid #eaeaea;
+}
+
+.section-footer-top .content {
+  color: #231f20;
+}
+
+a.button-socialmedia {
+  background-color: transparent;
+}
+
+a.button-socialmedia:hover {
+  background-color: transparent;
+}
+
+.section-footer-top a.menu-footer-button {
+  color: #231f20;
+}
+
+.section-footer-top a.menu-footer-button:hover, .section-footer-top a.menu-footer-button.active {
+  color: #888887;
+}
+
+/*layout*/
+.section-footer-top .content {
+  width: 95%;
+  margin: 0 auto;
+  padding: 20px 0 0 0;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.section-footer-top .socialmedia {
+  margin: 0 0 10px 0;
+}
+
+a.button-socialmedia, a.button-socialmedia:hover {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin: 0;
+  text-decoration: none;
+}
+
+a.button-facebook {
+  background: url("graphics/socialmedia-facebook.png") no-repeat top;
+}
+
+a.button-facebook:hover {
+  background: url("graphics/socialmedia-facebook.png") no-repeat bottom;
+}
+
+a.button-youtube {
+  background: url("graphics/socialmedia-youtube.png") no-repeat top;
+}
+
+a.button-youtube:hover {
+  background: url("graphics/socialmedia-youtube.png") no-repeat bottom;
+}
+
+a.button-google {
+  background: url("graphics/socialmedia-google.png") no-repeat top;
+}
+
+a.button-google:hover {
+  background: url("graphics/socialmedia-google.png") no-repeat bottom;
+}
+
+a.button-blogger {
+  background: url("graphics/socialmedia-blogger.png") no-repeat top;
+}
+
+a.button-blogger:hover {
+  background: url("graphics/socialmedia-blogger.png") no-repeat bottom;
+}
+
+a.button-instagram {
+  background: url("graphics/socialmedia-instagram.png") no-repeat top;
+}
+
+a.button-instagram:hover {
+  background: url("graphics/socialmedia-instagram.png") no-repeat bottom;
+}
+
+a.button-phone {
+  background: url("graphics/icon-phone-small.png") no-repeat top;
+}
+
+a.button-phone:hover {
+  background: url("graphics/icon-phone-small.png") no-repeat bottom;
+}
+
+@media only screen and (min-width: 800px) {
+  a.button-phone {
+    display: none;
+  }
+}
+.section-footer-top .menu-footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.section-footer-top .menu-footer ul li {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 0;
+  list-style: none;
+}
+
+.section-footer-top a.menu-footer-button, .section-footer-top a.menu-footer-button:hover {
+  display: block;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 799px) {
+  .section-footer-top .menu-footer ul li {
+    display: block;
+    margin: 0;
+  }
+}
+/*section-footer-bottom*/
+/*font*/
+.section-footer-bottom .copyright {
+  line-height: 30px;
+  font-size: 12px;
+}
+
+.section-footer-bottom a.webdesign {
+  line-height: 30px;
+  font-size: 12px;
+}
+
+/*color*/
+.section-footer-bottom {
+  background: #ffffff;
+}
+
+.section-footer-bottom .content {
+  color: #c4c4c4;
+}
+
+.section-footer-bottom a {
+  color: #c4c4c4;
+}
+
+/*cookie_info: color*/
+.cookie_info {
+  color: #ffffff;
+  background: #1d2122;
+}
+
+.cookie_info .cookie_info_button {
+  color: #ffffff;
+}
+
+.cookie_info .cookie_info_ok {
+  color: #ffffff;
+}
+
+/*layout*/
+.section-footer-bottom {
+  margin: 0 0 30px 0;
+}
+
+.section-footer-bottom .content {
+  width: 95%;
+  margin: 0 auto;
+  padding: 0 0 10px 0;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.section-footer-bottom .copyright {
+  display: inline-block;
+  line-height: 30px;
+  margin: 0 10px;
+  font-size: 12px;
+}
+
+.section-footer-bottom a.webdesign, .section-footer-bottom a.webdesign:hover {
+  display: inline-block;
+  line-height: 30px;
+  margin: 0 10px;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+/*cookie_info*/
+.cookie_info {
+  display: block;
+  line-height: 16px;
+  padding: 10px;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  font-weight: 400;
+  font-size: 11px;
+  text-align: center;
+  z-index: 2000;
+}
+
+.cookie_info .cookie_info_ok {
+  display: inline-block;
+  height: 20px;
+  line-height: 20px;
+  margin: 0 0 0 30px;
+  padding: 0 0 0 30px;
+  font-size: 13px;
+  text-decoration: none;
+  background: url("graphics/cookie-info-ok.png") no-repeat left;
+}
+
+.cookie_info .cookie_info_button {
+  display: inline-block;
+  height: 20px;
+  line-height: 20px;
+  margin: 0 0 0 20px;
+  padding: 0 0 0 30px;
+  font-size: 11px;
+  text-decoration: none;
+  background: url("graphics/cookie-info-button.png") no-repeat left;
+}
+
+a.telefon, a.telefon:hover {
+  display: block;
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  text-decoration: none;
+  z-index: 2000;
+  background: url("graphics/telefon.png") no-repeat center center;
+}
+
+@media only screen and (min-width: 800px) {
+  a.telefon {
+    display: none;
+  }
+}
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+/* Facebook */
+.fa-facebook {
+  color: rgb(50, 5, 255);
+}
+
+.fa-instagram {
+  color: rgb(0, 0, 0);
 }/*# sourceMappingURL=style.css.map */
