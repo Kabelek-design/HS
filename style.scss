@@ -235,12 +235,12 @@ h3,
 
 /*color*/
 html {
-    background: #ffffff;
+    background: #e3e6db;
     font-family: 'Poppins', Arial, sans-serif;
 }
 
 body {
-    color: #231f20;
+    color: #5d5352;
 }
 
 h1,
@@ -249,21 +249,21 @@ h3,
 .h1,
 .h,
 .h-small {
-    color: #231f20;
+    color: #5d5352;
 }
 
 input,
 textarea {
-    color: #231f20;
+    color: #5d5352;
     box-sizing: border-box;
     border-width: 1px;
     border-style: solid;
-    border-color: #ffffff;
-    background: #ffffff;
+    border-color: #e3e6db;
+    background: #b3978b;
 }
 
 a {
-    color: #231f20;
+    color: #5d5352;
 }
 
 a:hover {
@@ -366,16 +366,16 @@ a:hover {
 
 /*color*/
 .section-header {
-    background: #ffffff;
+    background: #e3e6db;
     /*-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2); -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2); box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);*/
 }
 
 .section-header .content {
-    color: #231f20;
+    color: #5d5352;
 }
 
 .section-header a.menu-button {
-    color: #231f20;
+    color: #5d5352;
 }
 
 .section-header a.menu-button:hover,
@@ -388,19 +388,19 @@ a:hover {
 .section-header ul li ul.menu-list {
     border-width: 0 1px 1px 1px;
     border-style: solid;
-    border-color: #eaeaea;
-    background-color: #ffffff;
+    border-color: #c1ded9;
+    background-color: #b3978b;
 }
 
 .section-header ul li ul li ul.menu-list {
     border-width: 1px 1px 1px 1px;
     border-style: solid;
-    border-color: #eaeaea;
-    background-color: #ffffff;
+    border-color: #c1ded9;
+    background-color: #b3978b;
 }
 
 .section-header a.submenu-button {
-    color: #231f20;
+    color: #5d5352;
 }
 
 .section-header a.submenu-button:hover,
@@ -676,7 +676,7 @@ a:hover {
 /*color*/
 
 .section-navmob .list-navmob {
-    background: #ffffff;
+    background: #e3e6db;
     -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
@@ -688,7 +688,7 @@ a:hover {
 
 .section-navmob a.navmob-button {
     color: #1d2122;
-    border-top: 1px solid #eaeaea;
+    border-top: 1px solid #c1ded9;
 }
 
 .section-navmob a.navmob-button:hover,
@@ -830,10 +830,10 @@ dd {
 /*font*/
 
 /*color*/
-.footer-contact { background: #ffffff; }
-.footer-contact .content { color: #231f20; /*border-top: 1px solid #eaeaea;*/ }
+.footer-contact { background: #e3e6db; }
+.footer-contact .content { color: #5d5352; /*border-top: 1px solid #c1ded9;*/ }
 .footer-contact .h-small { color: #888887; }
-.footer-contact a.h-button { color: #231f20; }
+.footer-contact a.h-button { color: #5d5352; }
 .footer-contact a.h-button:hover { color: #888887; }
 
 /*layout*/
@@ -860,7 +860,7 @@ dd {
 /*font*/
 
 /*color*/
-.map { background: #ffffff; }
+.map { background: #e3e6db; }
 
 /*layout*/
 
@@ -875,11 +875,11 @@ dd {
 .section-footer-top a.menu-footer-button { line-height: 30px; font-size: 13px; letter-spacing: 1px; text-transform: uppercase; }
 
 /*color*/
-.section-footer-top { background: #ffffff; border-top: 1px solid #eaeaea; }
-.section-footer-top .content { color: #231f20; }
+.section-footer-top { background: #e3e6db; border-top: 1px solid #c1ded9; }
+.section-footer-top .content { color: #5d5352; }
 a.button-socialmedia { background-color: transparent; }
 a.button-socialmedia:hover { background-color: transparent; }
-.section-footer-top a.menu-footer-button { color: #231f20; }
+.section-footer-top a.menu-footer-button { color: #5d5352; }
 .section-footer-top a.menu-footer-button:hover, .section-footer-top a.menu-footer-button.active { color: #888887; }
 
 /*layout*/
@@ -916,13 +916,13 @@ a.button-phone { background: url('graphics/icon-phone-small.png') no-repeat top;
 .section-footer-bottom a.webdesign { line-height: 30px; font-size: 12px; }
 
 /*color*/
-.section-footer-bottom { background: #ffffff; }
+.section-footer-bottom { background: #e3e6db; }
 .section-footer-bottom .content { color: #c4c4c4; }
 .section-footer-bottom a { color: #c4c4c4; }
 /*cookie_info: color*/
-.cookie_info { color: #ffffff; background: #1d2122; } 
-.cookie_info .cookie_info_button { color: #ffffff; }
-.cookie_info .cookie_info_ok { color: #ffffff; }
+.cookie_info { color: #e3e6db; background: #1d2122; } 
+.cookie_info .cookie_info_button { color: #e3e6db; }
+.cookie_info .cookie_info_ok { color: #e3e6db; }
 
 /*layout*/
 .section-footer-bottom { margin: 0 0 30px 0; }
